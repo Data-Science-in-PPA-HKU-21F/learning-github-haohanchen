@@ -17,4 +17,5 @@ d %>%
 
 d %>% 
   ggplot() +
-  geom_point(aes(x = x, y = y))
+  geom_point(aes(x = x, y = y)) +
+  geom_line(aes(x = x, y = y))
